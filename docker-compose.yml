@@ -33,7 +33,7 @@ services:
     volumes:
       - ./mysql:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=webroot
+      - MYSQL_ROOT_PASSWORD=xinwebroot
       - MYSQL_DATABASE=web
       - MYSQL_USER=Kejixiaoxin
       - MYSQL_PASSWORD=KejixiaoxinPasswd
